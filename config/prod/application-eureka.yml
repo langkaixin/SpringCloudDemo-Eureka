@@ -1,9 +1,10 @@
 eureka:
   instance:
+    hostname: eureka_7001
     prefer-ip-address: true
     instance-id: eureka_7001
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://localhost:${server.port}/eureka, http://localhost:7002/eureka
+      defaultZone: http://localhost:${server.port}/eureka

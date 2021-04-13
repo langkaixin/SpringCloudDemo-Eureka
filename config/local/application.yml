@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: eureka
-  profiles:
-    include:
-      - tomcat
-      - eureka
